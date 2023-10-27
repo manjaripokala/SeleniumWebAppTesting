@@ -55,3 +55,6 @@ public class LoginTest {
             driver.quit();
     }
 }
+
+
+// References: https://www.browserstack.com/guide/selenium-webdriver-tutorial
