@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="seleniumwebapptesting.LoginTest" time="10.209" tests="3" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="seleniumwebapptesting.NavigationTest" time="27.075" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="webdriver.chrome.driver" value="/Users/manjaripokala/.cache/selenium/chromedriver/mac64/119.0.6045.105/chromedriver"/>
@@ -60,31 +60,24 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="Seleniumtest1" classname="seleniumwebapptesting.LoginTest" time="3.078">
-    <system-out><![CDATA[In test 1
-]]></system-out>
-    <system-err><![CDATA[Nov 19, 2023 2:36:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="test104_YogaCollectionPageTitle" classname="seleniumwebapptesting.NavigationTest" time="7.355">
+    <system-err><![CDATA[Nov 19, 2023 2:36:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
 ]]></system-err>
   </testcase>
-  <testcase name="Seleniumtest2" classname="seleniumwebapptesting.LoginTest" time="4.693">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\[login&quot;}&#10;  (Session info: chrome=119.0.6045.159)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.14.1&apos;, revision: &apos;03f8ede370&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.1&apos;, java.version: &apos;19.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [56f95b373eed3ca88a8dbf0e22394e4b, findElement {using=id, value=user[login}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.159, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/8r/2tmgcldx3fl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60153}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60153/devtoo..., se:cdpVersion: 119.0.6045.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 56f95b373eed3ca88a8dbf0e22394e4b" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#user\[login"}
-  (Session info: chrome=119.0.6045.159)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.14.1', revision: '03f8ede370'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [56f95b373eed3ca88a8dbf0e22394e4b, findElement {using=id, value=user[login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.159, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/8r/2tmgcldx3fl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60153}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60153/devtoo..., se:cdpVersion: 119.0.6045.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 56f95b373eed3ca88a8dbf0e22394e4b
-	at seleniumwebapptesting.LoginTest.Seleniumtest2(LoginTest.java:36)
-]]></error>
-    <system-out><![CDATA[In test 2
-]]></system-out>
+  <testcase name="test101_HomepageLogoVisibility" classname="seleniumwebapptesting.NavigationTest" time="5.236">
+    <system-err><![CDATA[Nov 19, 2023 2:36:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
   </testcase>
-  <testcase name="Seleniumtest3" classname="seleniumwebapptesting.LoginTest" time="0">
-    <system-out><![CDATA[In test 3
-]]></system-out>
+  <testcase name="test102_YogaCollectionPageNavigation" classname="seleniumwebapptesting.NavigationTest" time="5.446">
+    <system-err><![CDATA[Nov 19, 2023 2:37:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="test103_testHomepageNavigation" classname="seleniumwebapptesting.NavigationTest" time="9.026">
+    <system-err><![CDATA[Nov 19, 2023 2:37:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
   </testcase>
 </testsuite>
