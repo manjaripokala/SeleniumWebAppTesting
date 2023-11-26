@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: seleniumwebapptesting.ProductListingTest
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.374 s - in seleniumwebapptesting.ProductListingTest

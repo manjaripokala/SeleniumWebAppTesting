@@ -1,4 +1,4 @@
-package seleniumwebapptesting;
+package seleniumwebapptesting.chrome;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
@@ -15,7 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 
-public class SortAndFilterTest {
+public class SortAndFilterChromeTest {
     private WebDriver driver;
     private String baseUrl;
 

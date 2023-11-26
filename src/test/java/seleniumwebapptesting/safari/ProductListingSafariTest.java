@@ -1,4 +1,4 @@
-package seleniumwebapptesting;
+package seleniumwebapptesting.safari;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
@@ -7,20 +7,20 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
 import java.util.List;
 
-public class ProductListingTest {
+public class ProductListingSafariTest {
 
     private WebDriver driver;
     private String baseUrl;
 
     @Before
     public void setUp() {
-        // Initialize ChromeDriver and navigate to the base URL
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        // Initialize SafariDriver and navigate to the base URL
+        WebDriverManager.safaridriver().setup();
+        driver = new SafariDriver();
 
         baseUrl = "https://magento.softwaretestingboard.com/collections/yoga-new.html";
     }

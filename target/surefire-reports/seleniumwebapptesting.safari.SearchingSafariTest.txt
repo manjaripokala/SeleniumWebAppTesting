@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: seleniumwebapptesting.safari.SearchingSafariTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 11.11 s <<< FAILURE! - in seleniumwebapptesting.safari.SearchingSafariTest
+seleniumwebapptesting.safari.SearchingSafariTest.testValidSearchResults  Time elapsed: 3.71 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [8759848A-450F-4635-ADB9-961D0E5B5EB3, clickElement {id=node-02CB1BE2-D79A-4A5F-8B22-CFFC1994CD0D}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Element: [[SafariDriver: Safari on mac (8759848A-450F-4635-ADB9-961D0E5B5EB3)] -> css selector: button[title='Search']]
+Session ID: 8759848A-450F-4635-ADB9-961D0E5B5EB3
+	at seleniumwebapptesting.safari.SearchingSafariTest.testValidSearchResults(SearchingSafariTest.java:60)
+
+seleniumwebapptesting.safari.SearchingSafariTest.testSearchBarFunctionality  Time elapsed: 3.652 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [C66EA157-011B-4F5D-8567-63BFA6833011, clickElement {id=node-A4E7A7D4-38C0-4AF9-A0D2-764E73010987}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Element: [[SafariDriver: Safari on mac (C66EA157-011B-4F5D-8567-63BFA6833011)] -> css selector: button[title='Search']]
+Session ID: C66EA157-011B-4F5D-8567-63BFA6833011
+	at seleniumwebapptesting.safari.SearchingSafariTest.testSearchBarFunctionality(SearchingSafariTest.java:41)
+
+seleniumwebapptesting.safari.SearchingSafariTest.testInvalidSearchResults  Time elapsed: 3.742 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [9D2999D5-4D20-4678-9AAF-8C9F837FC00A, clickElement {id=node-C64E2EA0-F7CD-44AE-8435-80B0A51A4781}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Element: [[SafariDriver: Safari on mac (9D2999D5-4D20-4678-9AAF-8C9F837FC00A)] -> css selector: button[title='Search']]
+Session ID: 9D2999D5-4D20-4678-9AAF-8C9F837FC00A
+	at seleniumwebapptesting.safari.SearchingSafariTest.testInvalidSearchResults(SearchingSafariTest.java:79)
+
