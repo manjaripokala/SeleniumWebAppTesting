@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: seleniumwebapptesting.safari.UserAccountSafariTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 26.488 s <<< FAILURE! - in seleniumwebapptesting.safari.UserAccountSafariTest
+seleniumwebapptesting.safari.UserAccountSafariTest.testUserLoginSuccess  Time elapsed: 3.524 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [DAF81BF7-BF69-46E3-8936-6621DA270000, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: DAF81BF7-BF69-46E3-8936-6621DA270000
+	at seleniumwebapptesting.safari.UserAccountSafariTest.testUserLoginSuccess(UserAccountSafariTest.java:108)
+
+seleniumwebapptesting.safari.UserAccountSafariTest.testUserRegistrationFail  Time elapsed: 16.297 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(@class, 'message-error')] (tried for 10 second(s) with 500 milliseconds interval)
+	at seleniumwebapptesting.safari.UserAccountSafariTest.testUserRegistrationFail(UserAccountSafariTest.java:97)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [19D9A595-BD6C-490B-B888-E92E93B076E7, findElement {using=xpath, value=//div[contains(@class, 'message-error')]}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 19D9A595-BD6C-490B-B888-E92E93B076E7
+	at seleniumwebapptesting.safari.UserAccountSafariTest.testUserRegistrationFail(UserAccountSafariTest.java:97)
+
+seleniumwebapptesting.safari.UserAccountSafariTest.testUserRegistrationSuccess  Time elapsed: 3.748 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [F88846A3-DA84-4BD0-AE6A-4B94AFCAC417, findElement {using=id, value=firstname}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: F88846A3-DA84-4BD0-AE6A-4B94AFCAC417
+	at seleniumwebapptesting.safari.UserAccountSafariTest.testUserRegistrationSuccess(UserAccountSafariTest.java:41)
+
+seleniumwebapptesting.safari.UserAccountSafariTest.testUserLoginFail  Time elapsed: 2.9 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [74973AEC-0F4B-4770-A190-B7821A28EF94, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 74973AEC-0F4B-4770-A190-B7821A28EF94
+	at seleniumwebapptesting.safari.UserAccountSafariTest.testUserLoginFail(UserAccountSafariTest.java:140)
+

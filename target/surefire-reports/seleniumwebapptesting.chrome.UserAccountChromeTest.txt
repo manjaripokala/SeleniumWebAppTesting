@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: seleniumwebapptesting.chrome.UserAccountChromeTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 47.528 s <<< FAILURE! - in seleniumwebapptesting.chrome.UserAccountChromeTest
+seleniumwebapptesting.chrome.UserAccountChromeTest.testUserRegistrationSuccess  Time elapsed: 19.923 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(@class, 'message-success') and contains(@class, 'success')] (tried for 10 second(s) with 500 milliseconds interval)
+	at seleniumwebapptesting.chrome.UserAccountChromeTest.testUserRegistrationSuccess(UserAccountChromeTest.java:62)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'message-success') and contains(@class, 'success')]"}
+  (Session info: chrome=119.0.6045.159)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20d9d423911259c563c39bd8908545d8, findElement {using=xpath, value=//div[contains(@class, 'message-success') and contains(@class, 'success')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.159, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/8r/2tmgcldx3fl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58905/devtoo..., se:cdpVersion: 119.0.6045.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 20d9d423911259c563c39bd8908545d8
+	at seleniumwebapptesting.chrome.UserAccountChromeTest.testUserRegistrationSuccess(UserAccountChromeTest.java:62)
+

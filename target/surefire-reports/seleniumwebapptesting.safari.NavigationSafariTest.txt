@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: seleniumwebapptesting.safari.NavigationSafariTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 15.708 s <<< FAILURE! - in seleniumwebapptesting.safari.NavigationSafariTest
+seleniumwebapptesting.safari.NavigationSafariTest.test104_YogaCollectionPageTitle  Time elapsed: 3.656 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[New Luma Yoga Collection]> but was:<[Home Page]>
+	at seleniumwebapptesting.safari.NavigationSafariTest.test104_YogaCollectionPageTitle(NavigationSafariTest.java:74)
+
+seleniumwebapptesting.safari.NavigationSafariTest.test102_YogaCollectionPageNavigation  Time elapsed: 3.117 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...aretestingboard.com/[collections/yoga-new.html]> but was:<...aretestingboard.com/[]>
+	at seleniumwebapptesting.safari.NavigationSafariTest.test102_YogaCollectionPageNavigation(NavigationSafariTest.java:48)
+

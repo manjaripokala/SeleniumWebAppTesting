@@ -1,4 +1,4 @@
-package seleniumwebapptesting;
+package seleniumwebapptesting.chrome;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class NavigationTest {
+public class NavigationChromeTest {
 
     private static WebDriver driver;
     private static String homePageUrl;

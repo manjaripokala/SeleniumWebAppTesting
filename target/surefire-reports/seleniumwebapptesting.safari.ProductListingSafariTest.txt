@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: seleniumwebapptesting.safari.ProductListingSafariTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 9.696 s <<< FAILURE! - in seleniumwebapptesting.safari.ProductListingSafariTest
+seleniumwebapptesting.safari.ProductListingSafariTest.verifyProductDetailsCanBeViewed  Time elapsed: 3.425 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [1804C75E-D98B-449C-B15A-B2D275A34C87, findElement {using=class name, value=product-info-main}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 1804C75E-D98B-449C-B15A-B2D275A34C87
+	at seleniumwebapptesting.safari.ProductListingSafariTest.verifyProductDetailsCanBeViewed(ProductListingSafariTest.java:48)
+
+seleniumwebapptesting.safari.ProductListingSafariTest.verifyProductDescription  Time elapsed: 3.324 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [B49F513D-2528-487D-91E4-8510C7B5067A, findElement {using=css selector, value=.data.item.title}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: B49F513D-2528-487D-91E4-8510C7B5067A
+	at seleniumwebapptesting.safari.ProductListingSafariTest.verifyProductDescription(ProductListingSafariTest.java:84)
+

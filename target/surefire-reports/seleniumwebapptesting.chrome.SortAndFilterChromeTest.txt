@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: seleniumwebapptesting.chrome.SortAndFilterChromeTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.463 s <<< FAILURE! - in seleniumwebapptesting.chrome.SortAndFilterChromeTest
+seleniumwebapptesting.chrome.SortAndFilterChromeTest.testSortingByPrice  Time elapsed: 8.022 s  <<< FAILURE!
+java.lang.AssertionError: Prices are not in ascending order
+	at seleniumwebapptesting.chrome.SortAndFilterChromeTest.testSortingByPrice(SortAndFilterChromeTest.java:52)
+

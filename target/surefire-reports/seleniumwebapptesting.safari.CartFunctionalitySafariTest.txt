@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: seleniumwebapptesting.safari.CartFunctionalitySafariTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 44.734 s <<< FAILURE! - in seleniumwebapptesting.safari.CartFunctionalitySafariTest
+seleniumwebapptesting.safari.CartFunctionalitySafariTest.testRemoveProductFromCart  Time elapsed: 30.905 s  <<< FAILURE!
+java.lang.AssertionError: Product was not removed from the cart.
+	at seleniumwebapptesting.safari.CartFunctionalitySafariTest.testRemoveProductFromCart(CartFunctionalitySafariTest.java:115)
+
+seleniumwebapptesting.safari.CartFunctionalitySafariTest.testAddProductToCart  Time elapsed: 3.301 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [47F2D659-ACB9-4D53-957F-604B2C37761B, clickElement {id=node-CBB905A9-DA3F-405F-80F8-A2A0BC6B98F4}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Element: [[[[SafariDriver: Safari on mac (47F2D659-ACB9-4D53-957F-604B2C37761B)] -> css selector: .product-item:first-child]] -> xpath: //div[@option-label='28']]
+Session ID: 47F2D659-ACB9-4D53-957F-604B2C37761B
+	at seleniumwebapptesting.safari.CartFunctionalitySafariTest.testAddProductToCart(CartFunctionalitySafariTest.java:39)
+
+seleniumwebapptesting.safari.CartFunctionalitySafariTest.testCartTotalUpdate  Time elapsed: 3.245 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+A node reference could not be resolved: Node with identifier 'node-8EAD6886-8FE4-4807-A5C6-2C40F59CDD7E' was not found
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [742E0214-7663-470E-8961-233A8692D4B8, getElementText {id=node-8EAD6886-8FE4-4807-A5C6-2C40F59CDD7E}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Element: [[[[SafariDriver: Safari on mac (742E0214-7663-470E-8961-233A8692D4B8)] -> css selector: .product-item]] -> css selector: .price-box .price]
+Session ID: 742E0214-7663-470E-8961-233A8692D4B8
+	at seleniumwebapptesting.safari.CartFunctionalitySafariTest.testCartTotalUpdate(CartFunctionalitySafariTest.java:126)
+
